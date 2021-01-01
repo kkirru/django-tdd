@@ -1,2 +1,2 @@
 # django-tdd
-django rest api with TDD
+django rest api using TDD
