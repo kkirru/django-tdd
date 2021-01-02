@@ -1,4 +1,5 @@
 language: python
+# Actual version of python follows the version in dockerfile
 python:
   - "3.6"
 
