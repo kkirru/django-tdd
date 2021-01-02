@@ -1,3 +1,4 @@
+# use alpine
 FROM python:3.7-alpine
 MAINTAINER kkirru 
 

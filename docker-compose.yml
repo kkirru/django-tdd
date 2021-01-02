@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+ # first service : python app
+ app:
+   build:
+     context: .
+   ports:
+     - "8000:8000"
+   volumes:
+     - ./app:/app
+   # > : new line
+   # port number shoud be matched with local port number (line 8)
+   command: > 
+     sh -c "python manage.py runserver 0.0.0.0:8000" 
